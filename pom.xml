@@ -18,7 +18,7 @@
        <repository>
          <id>internal.repo</id>
          <name>Internal repo</name>
-         <url>/home/kshitij/.m2/repository/</url>
+         <url>file:///var/lib/jenkins/myrepository/</url>
        </repository>
 </distributionManagement>
 
