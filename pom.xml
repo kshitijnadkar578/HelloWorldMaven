@@ -4,7 +4,7 @@
 
   <groupId>com.test</groupId>
   <artifactId>HelloWorldMaven</artifactId>
-  <version>1.0.9-RELEASE</version>
+  <version>1.0.9-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>HelloWorldMaven</name>
@@ -14,15 +14,11 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   
-  <settings>
-    <localRepository>file:///home/kshitij/.jenkins/myrepository/</localRepository>
-  </settings> 	
-	
   <distributionManagement>
 	<repository>
-    		<id>releases</id>
-    		<!-- CHANGE HERE by your team nexus server -->
-    		<url>http://localhost:8081/repository/maven-releases/</url>
+		<id>internal.repo</id>
+		<name>Internal repo</name>
+		<url>file:///home/kshitij/.jenkins/myrepository/</url>
   	</repository>
   	<snapshotRepository>
     		<id>snapshots</id>
