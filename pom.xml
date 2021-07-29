@@ -19,17 +19,15 @@
 		<id>internal.repo</id>
 		<name>Internal repo</name>
 		<url>file:///home/kshitij/.jenkins/myrepository/</url>
-	</repository>
-  <repository>
-    <id>releases</id>
-    <!-- CHANGE HERE by your team nexus server -->
-    <url>http://localhost:8081/repository/maven-releases/</url>
-  </repository>
-  <snapshotRepository>
-    <id>snapshots</id>
-    <!-- CHANGE HERE by your team nexus server -->
-    <url>http://localhost:8081/repository/maven-snapshots/</url>
-   </snapshotRepository>
+    		<id>releases</id>
+    		<!-- CHANGE HERE by your team nexus server -->
+    		<url>http://localhost:8081/repository/maven-releases/</url>
+  	</repository>
+  	<snapshotRepository>
+    		<id>snapshots</id>
+    		<!-- CHANGE HERE by your team nexus server -->
+    		<url>http://localhost:8081/repository/maven-snapshots/</url>
+   	</snapshotRepository>
 </distributionManagement>
 
   <dependencies>
