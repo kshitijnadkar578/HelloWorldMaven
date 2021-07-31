@@ -14,11 +14,11 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   
-  <distributionManagement>
+<distributionManagement>
 	<repository>
-		<id>internal.repo</id>
-		<name>Internal repo</name>
-		<url>file:///home/kshitij/.jenkins/myrepository/</url>
+    		<id>releases</id>
+    		<!-- CHANGE HERE by your team nexus server -->
+    		<url>http://localhost:8081/repository/maven-releases/</url>
   	</repository>
   	<snapshotRepository>
     		<id>snapshots</id>
